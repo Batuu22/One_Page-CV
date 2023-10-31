@@ -1,0 +1,70 @@
+/* 
+Project : One Page Cv
+Author  : Batuhan Nedim TEMEL
+Date    : 29.10.2023
+Version : 1.0 */
+
+/* ############################################# */
+/* Root */
+
+
+/* ############################################# */
+/* Common Property */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+}
+
+/* ############################################# */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    padding-top: 7rem; /* 7*20 */
+    color: #8b4711;
+}
+
+/* mySpecialSize */
+.myFontSize {
+    font-size: 1.5rem;
+    /* 1.5*20 */
+}
+
+.headLine{
+    text-transform: uppercase;
+    color:#8b4711;
+}
+
+/* line-clamp */
+.line-clamp5 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+nav{
+    background-color: #636597;
+}
+
+
+header {
+    max-width: 100%;
+    height:auto;
+}
+
+
+
