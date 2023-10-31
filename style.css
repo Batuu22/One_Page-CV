@@ -37,6 +37,18 @@ h2{
     color: #8b4711;
 }
 
+b,strong{
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+hr{
+    color: #6e6c6c;
+}
+
 /* mySpecialSize */
 .myFontSize {
     font-size: 1.5rem;
@@ -64,6 +76,11 @@ nav{
 header {
     max-width: 100%;
     height:auto;
+}
+
+main i{
+    font-size: 2.5rem;
+    color: #8b4711;
 }
 
 
