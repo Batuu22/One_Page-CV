@@ -68,6 +68,14 @@ hr{
     overflow: hidden;
 }
 
+/* ############################################# */
+/* clearfix */
+.myClearFix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
 nav{
     background-color: #636597;
 }
@@ -82,6 +90,25 @@ main i{
     font-size: 2.5rem;
     color: #8b4711;
 }
+
+footer i{
+    font-size: 1.7rem;
+}
+
+footer i:hover{
+    color: #8b4711;
+}
+
+#email_id{
+    color:#8b4711 ;
+}
+
+#contact_id{
+    height: 22rem;
+    background-color: #854f24;
+}
+
+
 
 
 
