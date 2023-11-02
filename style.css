@@ -4,11 +4,11 @@ Author  : Batuhan Nedim TEMEL
 Date    : 29.10.2023
 Version : 1.0 */
 
-/* ############################################# */
+/* ########################################################## */
 /* Root */
 
 
-/* ############################################# */
+/* ########################################################## */
 /* Common Property */
 * {
     margin: 0;
@@ -25,7 +25,7 @@ body {
     position: relative;
 }
 
-/* ############################################# */
+/* ########################################################## */
 
 img {
     max-width: 100%;
@@ -49,6 +49,12 @@ hr{
     color: #6e6c6c;
 }
 
+.myProfile{
+    font-family: 'Ms Madi', cursive;
+    font-size: 1.5rem;
+    color: #7a7c7a;
+}
+
 /* mySpecialSize */
 .myFontSize {
     font-size: 1.5rem;
@@ -68,7 +74,7 @@ hr{
     overflow: hidden;
 }
 
-/* ############################################# */
+/* ########################################################## */
 /* clearfix */
 .myClearFix::after{
     display: block;
@@ -77,26 +83,32 @@ hr{
 }
 
 nav{
-    background-color: #636597;
+    background-color: #fefefe;
+    
 }
 
+nav i{
+    font-size: 2rem;
+    color: #8b4711;
+}
 
 header {
     max-width: 100%;
     height:auto;
 }
 
+
 main i{
     font-size: 2.5rem;
     color: #8b4711;
 }
 
-footer i{
-    font-size: 1.7rem;
+footer{
+    height: 13rem;
 }
 
-footer i:hover{
-    color: #8b4711;
+footer i{
+    font-size: 1.7rem;
 }
 
 #email_id{
@@ -106,6 +118,12 @@ footer i:hover{
 #contact_id{
     height: 22rem;
     background-color: #854f24;
+}
+
+#backto_top{
+    position:fixed;
+    right: 5px;
+    bottom: 5px;
 }
 
 

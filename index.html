@@ -35,7 +35,7 @@
     <!-- start codes -->
 
     <!-- nav start -->
-    <nav id="navbar_id" class="navbar navbar-expand-sm bg-body-tertiary">
+    <nav id="navbar_id" class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
         <div class="container"> <!-- container-fluid -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,6 +43,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <i class="fa-solid fa-id-card nav-item mt-2"></i>
+                <span class="myProfile ms-5 nav-item mt-2">MY PROFILE</span>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" href="">Anasayfa</a>
@@ -71,8 +73,11 @@
             <div class="col-12 col-md-6 col-xl-4">
                 <img src="./img/IMG_2234.JPG" alt="softwareImage">
             </div>
-            <div class="col-12 col-md-6 col-xl-8 text-center" style="background-color: #FAF8F1">
-                <h2>Merhaba Ben Batuhan Temel</h2>
+            <div class="col-12 col-md-6 col-xl-8 text-center" style="background-color: #FDFAF6">
+                <h2>
+                    <i class="fa-solid fa-hands-clapping"></i>
+                    <span style="color:#a4591c; margin-left: 10px;"><b>Merhaba Ben BatuhanTemel</b></span>
+                </h2>
                 <a href="#main_id" class="btn btn-dark mt-3">Hakkımda <i class="fa-solid fa-arrow-down"></i></a>
             </div>
         </div>
@@ -261,7 +266,7 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-12 text-center"><a href="" class="btn btn-dark">E-mail Gönder</a></div>
+                    <div class="col-12 text-center"><a href="https://www.google.com/intl/tr/gmail/about/" target="_blank" class="btn btn-dark">E-mail Gönder</a></div>
                 </div>
             </section>
             <!-- section e-mail end -->
@@ -273,30 +278,32 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer id="footer_id" class="text-center text-white" style="background-color: #f1f1f1;">
-        <!-- Grid container -->
-        <div class="container pt-4">
+    <footer id="footer_id" class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
             <!-- Section: Social media -->
             <section class="mb-4">
                 <!-- Linkedin -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
-                    href="https://www.linkedin.com/in/batuhan-temel-08a930217/" target="_blank" role="button"
-                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/batuhan-temel-08a930217/" target="_blank" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
                 <!-- Github -->
-                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Batuu22"
-                    target="_blank" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Batuu22" target="_blank" role="button"><i
+                        class="fab fa-github"></i></a>
             </section>
             <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
 
         <!-- Copyright start -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <span style="font-size: 1.2rem;">&copy; 2023 Copyright:</span>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &copy; 2023 Copyright : 
         </div>
         <!-- Copyright end -->
     </footer>
     <!-- footer end -->
+
+    <!-- back to top -->
+    <a id="backto_top" href="#header_id" class="btn btn-outline-primary"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
 
     <!-- end codes -->
 
