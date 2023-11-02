@@ -10,7 +10,6 @@ Version : 1.0 */
     --templateBgColor:#000;
 }
 
-
 /* ########################################################## */
 /* Common Property */
 * {
@@ -27,8 +26,6 @@ body {
     font-family: 'Manrope', sans-serif;
     position: relative;
 }
-
-/* ########################################################## */
 
 img {
     max-width: 100%;
@@ -77,7 +74,6 @@ hr{
     overflow: hidden;
 }
 
-/* ########################################################## */
 /* clearfix */
 .myClearFix::after{
     display: block;
@@ -85,6 +81,7 @@ hr{
     clear: both;
 }
 
+/* Navbar */
 .DarkTheme{
     background-color: var(--templateBgColor);
     color: #fff;
@@ -92,7 +89,6 @@ hr{
 
 nav{
     background-color: #fefefe;
-    
 }
 
 nav i{
@@ -100,17 +96,19 @@ nav i{
     color: #8b4711;
 }
 
+/* Header */
 header {
     max-width: 100%;
     height:auto;
 }
 
-
+/* Main */
 main i{
     font-size: 2.5rem;
     color: #8b4711;
 }
 
+/* Footer */
 footer{
     height: 13rem;
 }
