@@ -6,6 +6,9 @@ Version : 1.0 */
 
 /* ########################################################## */
 /* Root */
+:root{
+    --templateBgColor:#000;
+}
 
 
 /* ########################################################## */
@@ -80,6 +83,11 @@ hr{
     display: block;
     content: "";
     clear: both;
+}
+
+.DarkTheme{
+    background-color: var(--templateBgColor);
+    color: #fff;
 }
 
 nav{
