@@ -118,7 +118,13 @@ footer i{
 }
 
 #email_id{
-    color:#8b4711 ;
+    height: 20rem;
+    background-image: url("./img/working-8103458_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: 35% 35%;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#c31334 ;
 }
 
 #contact_id{
