@@ -19,7 +19,7 @@ Version : 1.0 */
 }
 
 html {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 body {
@@ -33,7 +33,7 @@ img {
 }
 
 h2{
-    padding-top: 7rem; /* 7*20 */
+    padding-top: 7rem; /* 7*22 */
     color: #8b4711;
 }
 
@@ -49,6 +49,7 @@ hr{
     color: #6e6c6c;
 }
 
+/* My Profile on Navbar */
 .myProfile{
     font-family: 'Ms Madi', cursive;
     font-size: 1.5rem;
@@ -87,6 +88,7 @@ hr{
     color: #fff;
 }
 
+/* Nav */
 nav{
     background-color: #fefefe;
 }
@@ -117,6 +119,12 @@ footer i{
     font-size: 1.7rem;
 }
 
+/* darkTheme Icon */
+#dark_icon:hover{
+    color:#fff ;
+}
+
+/* parallax */
 #email_id{
     height: 20rem;
     background-image: url("./img/working-8103458_1920.jpg");
